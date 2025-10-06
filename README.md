@@ -1,133 +1,127 @@
-📊 Superstore Sales Performance Dashboard
+# 📈 Superstore Sales Performance Dashboard
 
-A Power BI dashboard built using the famous Superstore dataset.
-It highlights Sales Performance, Profitability, Regional Trends, Product Insights, and showcases interactive visuals, tooltips, and conditional formatting.
+A Power BI dashboard built using the famous **Superstore Dataset**.  
+It highlights **Sales Performance, Profitability, Regional Trends, Product Insights**, and showcases **interactive visuals, tooltips, and conditional formatting**.
 
-📝 Project Overview
+---
 
-The project demonstrates end-to-end data analysis:
+## 📌 Project Overview
+This project demonstrates end-to-end data analysis:
+- ✅ Data cleaning and transformation in **Power Query**
+- ✅ Creation of a **Date Table** and **KPI measures** using **DAX**
+- ✅ Building an interactive dashboard with **slicers and tooltips**
+- ✅ Applying **conditional formatting** to KPI cards for better insights  
 
-Data cleaning and transformation in Power Query
+**Goal:** Provide managers with an **at-a-glance view** of sales performance and profit drivers.
 
-Creation of a Date Table and KPIs using DAX
+---
 
-Building an interactive dashboard with slicers and tooltips
+## 🔑 Key Features
 
-Applying Conditional Formatting to KPIs for better insights
+### 📊 KPIs for:
+- **Total Sales**
+- **Total Profit**
+- **Profit Margin %**
+- **YoY Sales Growth %**
+- **YoY Profit Growth %**
 
-Goal: Provide managers with an at-a-glance view of sales performance and profit drivers.
+---
 
-📊 Key Features
+### 📈 Visuals include:
+- Monthly **Sales & Profit Trend**
+- **Total Sales by State & Region**
+- **Top 5 Profitable Sub-Categories**
+- **Product Category vs. Sub-Category** breakdown
+- **Yearly Sales vs. Profit Trend**
 
-✅ KPIs for:
+---
 
-Total Sales
+### 🔎 Interactive Slicers for:
+- Year  
+- Region  
+- Product Category  
 
-Total Profit
+---
 
-Profit Margin %
+### 💡 Custom Tooltip:
+- Extra insights on hover for **Sales by State & Region**
 
-YoY Sales Growth %
+---
 
-YoY Profit Growth %
+### 🎨 Conditional Formatting for KPI Cards:
+#### **Profit Margin %**
+- 🟢 **> 15%** → High Margin  
+- 🟠 **10–15%** → Moderate Margin  
+- 🔴 **< 10%** → Low Margin  
 
-✅ Visuals include:
+#### **YoY Sales Growth %**
+- 🟢 **> 10%** → Healthy Growth  
+- 🟠 **0–10%** → Moderate Growth  
+- 🔴 **< 0%** → Decline  
 
-Monthly Sales & Profit Trend
+#### **YoY Profit Growth %**
+- 🟢 **> 8%** → Strong Growth  
+- 🟠 **0–8%** → Low Growth  
+- 🔴 **< 0%** → Negative Growth  
 
-Total Sales by State & Region
+---
 
-Top 5 Profitable Sub-Categories
+## 📊 Dashboard Previews
 
-Product Category vs Sub-Category Breakdown
+1. **Full Dashboard**  
+   ![Full Dashboard](images/full_dashboard.png)
 
-Yearly Sales vs Profit Trend
+2. **Monthly Sales & Profit Trend**  
+   ![Monthly Sales & Profit Trend](images/monthly_sales_profit_trend.png)
 
-✅ Interactive Slicers for:
+3. **Sales by State & Region**  
+   ![Sales by State & Region](images/sales_by_state_region.png)
 
-Year
+4. **Tooltip Example**  
+   ![Tooltip Example](images/tooltip_example.png)
 
-Region
+5. **Top 5 Profitable Sub-Categories**  
+   ![Top 5 Profitable Sub-Categories](images/top5_profitable_subcategories.png)
 
-Product Category
+6. **KPI Cards with Conditional Formatting**  
+   ![KPI Cards with Conditional Formatting](images/kpi_cards_conditional_formatting.png)
 
-✅ Custom Tooltip for extra insights on hover
+---
 
-✅ Conditional Formatting for KPI cards:
+## 📥 Download Files
+- [Download Power BI Report (.pbix)](Superstore_Sales_Performance.pbix)
+- [Download PDF Version](Superstore_Sales_Performance.pdf)
 
-Profit Margin %:
+---
 
-🟢 > 15% → High Margin
+## 🛠 Tools Used
+- **Power BI Desktop**
+- **Power Query** → Data cleaning & transformations
+- **DAX (Data Analysis Expressions)** → KPI calculations
+- **Superstore Dataset (Tableau Sample Data)**
 
-🟠 10–15% → Moderate Margin
+---
 
-🔴 < 10% → Low Margin
+## 🚀 How to Use
+1. Download the `.pbix` file from the link above.  
+2. Open it in **Power BI Desktop**.  
+3. Use slicers (**Year**, **Region**, **Product Category**) to filter insights.  
+4. Hover over charts to see **custom tooltips**.  
+5. KPI cards will **change color dynamically** based on performance.
 
-YoY Sales Growth %:
+---
 
-🟢 > 10% → Healthy Growth
+## 💡 Insights
+- **Technology products** dominate sales but margins vary.
+- Certain sub-categories (e.g., **Phones** & **Binders**) drive profitability.
+- Some regions underperform and need **strategic focus**.
+- **YoY growth trends** reveal both seasonal and annual patterns.
 
-🟠 0–10% → Moderate Growth
+---
 
-🔴 < 0% → Decline
+✨ Created as a **practice project** to showcase **Power BI skills** in:
+- Data modeling  
+- Dashboarding  
+- Visual storytelling  
+- Insight generation  
 
-YoY Profit Growth %:
-
-🟢 > 8% → Strong Growth
-
-🟠 0–8% → Low Growth
-
-🔴 < 0% → Negative Growth
-
-🖼️ Dashboard Previews
-1️⃣ Full Dashboard
-
-2️⃣ Monthly Sales & Profit Trend
-
-3️⃣ Sales by State & Region
-
-4️⃣ Tooltip Example
-
-5️⃣ Top 5 Profitable Sub-Categories
-
-6️⃣ KPI Cards with Conditional Formatting
-
-📥 Download Files
-
-📁 Download Power BI File (.pbix)
-
-📄 Download PDF Report
-
-⚙️ Tools Used
-
-Power BI Desktop
-
-Power Query – data cleaning & transformations
-
-DAX (Data Analysis Expressions) – for KPIs & calculations
-
-Superstore Dataset (Tableau Sample Data)
-
-🧭 How to Use
-
-Download the .pbix file from the link above.
-
-Open it in Power BI Desktop.
-
-Use slicers (Year, Region, Product Category) to filter insights.
-
-Hover over charts to see custom tooltips.
-
-KPI cards will change color dynamically based on performance.
-
-💡 Insights
-
-Technology products dominate sales but margins vary.
-
-Certain sub-categories like Phones & Binders drive profitability.
-
-Some regions underperform, needing strategic focus.
-
-YoY growth trends reveal seasonal and annual patterns.
-
-✍️ Created as a practice project to showcase Power BI skills in data modeling, dashboarding, and storytelling.
